@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/rootLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/_d_galaxy_4io58y5d17av1ln2">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#9C000000"
+        android:text="Score :0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/highestScoreTextView"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#88000000"
+        android:text="Highest Score :0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="163dp"
+        android:layout_height="72dp"
+        android:layout_margin="15dp"
+        android:backgroundTint="#8305A9BF"
+        android:gravity="center"
+        android:text="Start"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
